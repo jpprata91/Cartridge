@@ -45,8 +45,10 @@ Cartridge é um bot para Discord desenvolvido em Elixir com o framework **Nostru
 ### 1. Variáveis de ambiente
 
 Antes de executar o projeto, defina as variáveis de ambiente com os seus tokense chaves de API:
+(https://discord.com/developers/home)
+(https://thegamesdb.net/index.php)
 
 #### Windows CMD
 ```cmd
-set DISCORD_TOKEN=seu_token_aqui (https://discord.com/developers/home)
-set THEGAMESDB_KEY=sua_chave_aqui (https://thegamesdb.net/index.php)
+set DISCORD_TOKEN=seu_token_aqui 
+set THEGAMESDB_KEY=sua_chave_aqui 
