@@ -1,14 +1,6 @@
 # Cartridge
 
 Cartridge é um bot para Discord desenvolvido em Elixir com o framework **Nostrum**.  
-O projeto foi criado para atender aos requisitos da atividade da disciplina de Programação Funcional, incluindo:
-
-- uso de API REST externa;
-- despacho de comandos com pattern matching;
-- organização em módulos com responsabilidades separadas;
-- persistência de dados em JSON;
-- supervisão com OTP.
-
 ## Estrutura do projeto
 
 - `Cartridge.Application` → ponto de entrada da aplicação e supervisor principal
@@ -52,9 +44,9 @@ O projeto foi criado para atender aos requisitos da atividade da disciplina de P
 
 ### 1. Variáveis de ambiente
 
-Antes de executar o projeto, defina as variáveis de ambiente:
+Antes de executar o projeto, defina as variáveis de ambiente com os seus tokense chaves de API:
 
 #### Windows CMD
 ```cmd
-set DISCORD_TOKEN=seu_token_aqui
-set THEGAMESDB_KEY=sua_chave_aqui
+set DISCORD_TOKEN=seu_token_aqui (https://discord.com/developers/home)
+set THEGAMESDB_KEY=sua_chave_aqui (https://thegamesdb.net/index.php)
