@@ -52,3 +52,11 @@ Antes de executar o projeto, defina as variáveis de ambiente com os seus tokens
 ```cmd
 set DISCORD_TOKEN=seu_token_aqui 
 set THEGAMESDB_KEY=sua_chave_aqui 
+```
+
+### 2. Baixar dependencias e rodar
+```cmd
+mix deps.get
+mix compile
+mix run --no-halt
+```
