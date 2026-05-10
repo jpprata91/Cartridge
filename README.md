@@ -47,12 +47,7 @@ O projeto foi criado para atender aos requisitos da atividade da disciplina de P
 
 ---
 
-### `!ping`
 
-Responde com:
-
-```txt
-Pong!
 ## Configuração
 
 ### 1. Variáveis de ambiente
